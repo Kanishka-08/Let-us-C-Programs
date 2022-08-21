@@ -1,0 +1,56 @@
+#include <stdio.h>
+#include<stdlib.h>
+int main ()
+{
+    int d, m,x,a,b,y,c;
+    m=0;
+    
+    printf("Please enter year  to know day on 1st january");
+    scanf("%i",&y);
+{
+    if(y>2001);
+    {
+        x=y-2001;
+        a=x/4;
+        b=x%7;
+        c=a+b;
+        
+        {
+            if(c<7)
+              d=m+c ;
+            else
+              d=m+ c%7;
+        }
+    }
+    else(y<=2001);
+    { 
+        x=y-2001;
+        a=x/4;
+        b=x%7;
+        c=abs(a+b);
+        {    if(c<7)
+              d=m+c ;
+            else
+              d=m+ c%7;
+        }
+    }
+}
+    
+    
+    if(d==0)
+      printf("The day is Monday");
+    if(d==1)
+      printf("The day is Tuesday");
+    if(d==2)
+      printf("The day is Wednesday"); 
+    if(d==3)
+      printf("The day is Thursday");
+    if(d==4)
+      printf("The day is Friday");
+    if(d==5)
+      printf("The day is Saturday");
+    if(d==6)
+      printf("The day is Sunday");
+      
+      return 0;
+}
