@@ -1,0 +1,32 @@
+#include<stdio.h>
+int main()
+{
+    float bmi,h,w;
+
+    printf("Please enter weight in Kg");
+    scanf("%f",&w);
+
+    printf("Please enter height in meters");
+    scanf("%f",&h);
+
+    bmi=w/(h*h);
+
+    if(bmi<15.0)
+      printf("The person falls in category of STARVATION");
+    else if (bmi>=15.1 && bmi<=17.5)
+      printf("The person falls in category of ANOREXIC");
+    else if (bmi>=17.6 && bmi<=18.5)
+      printf("The person falls in category of UNDERWEIGHT");
+    else if (bmi>=18.6 && bmi<=24.9)
+      printf("The person falls in category of IDEAL");
+    else if (bmi>=25.0 && bmi<=29.9)
+      printf("The person falls in category of OVERWEIGHT");
+    else if  (bmi>=30.0 && bmi<=39.9)
+       printf("The person falls in category of OBESE");
+    else
+       printf("The person falls in category of MORBIDLY OBESE");          
+      
+
+    return 0 ;
+
+}
