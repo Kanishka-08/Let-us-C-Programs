@@ -8,7 +8,7 @@ int main ()
     printf("Please enter year  to know day on 1st january");
     scanf("%i",&y);
 {
-    if(y>2001);
+    if(y>2001)
     {
         x=y-2001;
         a=x/4;
@@ -22,7 +22,7 @@ int main ()
               d=m+ c%7;
         }
     }
-    else(y<=2001);
+    else
     { 
         x=y-2001;
         a=x/4;
