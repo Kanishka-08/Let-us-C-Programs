@@ -1,0 +1,33 @@
+#include <stdio.h>
+int main()
+{
+    float h,cc,ts,a,b,c;
+
+    printf("Please entet hardness");
+    scanf("%f",&h);
+
+    printf("Please entet carbon content");
+    scanf("%f",&cc);
+
+    printf("Please entet tensile strength");
+    scanf("%f",&ts);
+
+    a=h>50.0;
+    b=cc<0.7;
+    c=ts>5600.0;
+
+    if(a,b,c)
+      printf("GRADE 10");
+    else if (a,b) 
+      printf("GRADE 9");
+    else if(b,c)
+      printf("GRADE 8"); 
+    else if (a,c)
+      printf("GRADE 7");   
+    else if (a||b||c)
+      printf("GRADE 6"); 
+    else
+      printf("GRADE 5");   
+       
+     return 0;  
+}
