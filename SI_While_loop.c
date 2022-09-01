@@ -12,11 +12,13 @@ int main()
 
         si=p*n*r/100;
 
-        printf("Simple interest =\n Rs.%f",si);
+        printf("Simple interest =\n Rs.%f\n\n",si);
 
         count=count+1;
 
         
       }
+    
+       printf("Thanks");
       return 0;
 }
